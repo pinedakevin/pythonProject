@@ -25,7 +25,7 @@ class AlienInvasion:
             # Watch for keyboard and mouse events.
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    sys.exit()
+                    sys.exit(0)
 
             # Redraw the screen during each pass through the loop.
             self.screen.fill(self.settings.bg_color)
